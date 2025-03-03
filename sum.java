@@ -19,5 +19,6 @@ public class sum{
         }
         //printing the final answer
         System.out.println("The sum of the first "+ number +" even numbers is "+ sum);
+        input.close();
     }
 }

@@ -24,5 +24,6 @@ public class frequency2 {
         for(int i=0;i<frequency.length;i++){
             System.out.println("Rating "+(i+1)+": "+frequency[i]);
         }
+        input.close();  
     }
 }
