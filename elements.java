@@ -69,5 +69,6 @@ public class elements {
         System.out.println("the difference between the leading and trailing diagonals in the odd matrix is "+ difference1);
         int totaldifference=producttrailing1-producttrailing;
         System.out.println("the difference between the products of the trailing diagonals in  odd matrix and the trailing diagonals in the even matrix is "+totaldifference);
+        input.close();
     }
 }
